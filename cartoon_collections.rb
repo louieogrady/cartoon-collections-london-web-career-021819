@@ -6,7 +6,7 @@ end
 
 def test
   array = ["earth", "wind", "fire", "water", "heart"]
-  array.map {|e| e << "!" && e.capitalize}
+  array.map! {|e| e << "!" && e.capitalize}
 end
 
 def long_planeteer_calls# code an argument here
