@@ -14,5 +14,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find {|e| cheese_types.include?(e)} # iterates over the array passed in to match the first element it can against the cheese_types array
+  array.find {|e| cheese_types.include?(e)} # iterates over the array passed in to match the first element it can against the cheese_types array - kind of pattern matching?
 end
