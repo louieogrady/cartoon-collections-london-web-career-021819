@@ -5,7 +5,7 @@ end
 end
 
 def test(array)
-   array.map {|e| e << "!" && e.capitalize}
+   array.map! {|e| e << "!" && e.capitalize}
 end
 
 def long_planeteer_calls# code an argument here
