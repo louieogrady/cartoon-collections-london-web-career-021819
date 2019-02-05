@@ -11,7 +11,7 @@ end
 def long_planeteer_calls# code an argument here
   # Your code here
   
-  array.select {|n| > 4}
+  array.select {|n| n > 4}
   
 end
 
